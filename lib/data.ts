@@ -1,0 +1,328 @@
+// lib/data.ts
+import {
+  Code2,
+  Server,
+  Database,
+  Cloud,
+  Brain,
+  GitBranch,
+  Layers,
+  Zap,
+  Shield,
+  Terminal,
+  Cpu,
+  Globe,
+} from 'lucide-react'
+
+export const personalInfo = {
+  name: 'Sameer Khan',
+  title: 'Full Stack Developer',
+  email: 'sameerkhann9412@gmail.com',
+  phone: '+919412803911',
+  location: 'Aligarh, Uttar Pradesh, India',
+  linkedin: 'https://linkedin.com/in/sameerkhn',
+  github: 'https://github.com/sameerkhan9412',
+  portfolio: 'https://portfoliobysameer.vercel.app',
+  resume: '/resume.pdf',
+}
+
+export const experiences = [
+  {
+    id: 1,
+    title: 'Software Engineer Intern',
+    company: 'Technopedia Soft',
+    location: 'Greater Noida',
+    type: 'Onsite',
+    period: 'Jan 2026 - Present',
+    description: [
+      'Built a scalable healthcare platform with Next.js frontend and Node.js backend supporting appointment scheduling and e-pharmacy services.',
+      'Architected secure backend modules including authentication, authorization, and protected APIs.',
+      'Engineered a doctor wallet module with commission calculation, transaction history, and controlled payout management.',
+      'Integrated secure payment workflows and optimized database queries for high-performance transaction handling.',
+      'Collaborated directly with clients to gather requirements and translate business workflows into scalable technical solutions.',
+    ],
+    technologies: ['Next.js', 'Node.js', 'MongoDB', 'JWT', 'Payment Gateway'],
+    color: 'from-primary to-accent-cyan',
+  },
+  {
+    id: 2,
+    title: 'Junior Software Engineer Intern',
+    company: 'Sofyrus Technologies',
+    location: 'Aligarh',
+    type: 'Onsite',
+    period: 'Sep 2025 - Dec 2025',
+    description: [
+      'Contributed to 3 production-level projects, including migrating a healthcare admin dashboard from ToolJet to React.js.',
+      'Developed and optimized features using React.js, Next.js, Node.js, and TypeScript.',
+      'Hands-on experience in API integration, Docker, debugging, and CI/CD pipelines.',
+      'Collaborated with stakeholders and cross-functional teams using Swagger and GitHub.',
+    ],
+    technologies: ['React.js', 'Next.js', 'TypeScript', 'Docker', 'CI/CD', '.NET'],
+    color: 'from-accent-purple to-accent-pink',
+  },
+  {
+    id: 3,
+    title: 'Full Stack Web Developer Intern',
+    company: 'Digiworld 360 Solutions',
+    location: 'Aligarh',
+    type: 'Onsite',
+    period: 'Jan 2025 - June 2025',
+    description: [
+      'Developed and maintained MERN stack applications for multiple client-based projects.',
+      'Built scalable frontend interfaces using React.js and robust backend APIs with Node.js, Express.js, and MongoDB.',
+      'Collaborated with clients and internal teams to deliver features and deploy production-ready solutions.',
+    ],
+    technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST API'],
+    color: 'from-accent-cyan to-accent-green',
+  },
+]
+
+export const skills = {
+  languages: {
+    title: 'Languages',
+    icon: Code2,
+    items: [
+      { name: 'JavaScript', level: 95 },
+      { name: 'TypeScript', level: 90 },
+      { name: 'C/C++', level: 80 },
+      { name: 'Java', level: 75 },
+      { name: 'HTML/CSS', level: 95 },
+    ],
+  },
+  frontend: {
+    title: 'Frontend',
+    icon: Layers,
+    items: [
+      { name: 'React.js', level: 95 },
+      { name: 'Next.js', level: 90 },
+      { name: 'Redux Toolkit', level: 85 },
+      { name: 'Tailwind CSS', level: 92 },
+      { name: 'Framer Motion', level: 80 },
+    ],
+  },
+  backend: {
+    title: 'Backend',
+    icon: Server,
+    items: [
+      { name: 'Node.js', level: 92 },
+      { name: 'Express.js', level: 90 },
+      { name: 'REST API', level: 95 },
+      { name: 'JWT Auth', level: 88 },
+      { name: 'Swagger', level: 82 },
+    ],
+  },
+  database: {
+    title: 'Database',
+    icon: Database,
+    items: [
+      { name: 'MongoDB', level: 90 },
+      { name: 'SQL', level: 85 },
+      { name: 'Redis', level: 78 },
+      { name: 'Mongoose', level: 88 },
+    ],
+  },
+  devops: {
+    title: 'DevOps & Cloud',
+    icon: Cloud,
+    items: [
+      { name: 'Docker', level: 82 },
+      { name: 'GitHub Actions', level: 85 },
+      { name: 'AWS EC2', level: 75 },
+      { name: 'CI/CD', level: 80 },
+    ],
+  },
+  tools: {
+    title: 'Tools',
+    icon: Terminal,
+    items: [
+      { name: 'Git/GitHub', level: 95 },
+      { name: 'Postman', level: 90 },
+      { name: 'VS Code', level: 95 },
+      { name: 'Linux', level: 80 },
+    ],
+  },
+}
+
+export const projects = [
+  {
+    id: 1,
+    title: 'The Codeway',
+    subtitle: 'Interactive Coding & Practice Platform',
+    description: 'Full-stack interactive coding platform with real-time code execution, AI-based interview simulation, DSA Visualizer, coding contests, and doubt forum.',
+    image: '/projects/codeway.png',
+    technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redis', 'Judge0 API', 'OpenAI API'],
+    features: [
+      'Real-time code execution with Judge0',
+      'AI-based interview simulation',
+      'DSA Visualizer for learning',
+      'Coding contests & leaderboards',
+      'Doubt forum with AI assistance',
+      'Role-based dashboards',
+      'Multi-language support',
+      'Payment gateway integration',
+    ],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/sameerkhan9412',
+    color: 'from-primary via-accent-cyan to-accent-purple',
+    featured: true,
+  },
+  {
+    id: 2,
+    title: 'The StudyByte',
+    subtitle: 'Full Stack Online EdTech Platform',
+    description: 'Scalable ed-tech platform with role-based dashboards for instructors and students, used by 100+ mock users.',
+    image: '/projects/studybyte.png',
+    technologies: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Razorpay'],
+    features: [
+      'Role-based dashboards',
+      'OTP verification & JWT auth',
+      'Email-based password reset',
+      'Course management system',
+      'Earnings tracking',
+      'Razorpay payment integration',
+      'Automated email notifications',
+      'Progress tracking',
+    ],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/sameerkhan9412',
+    videoUrl: '#',
+    color: 'from-accent-purple via-accent-pink to-primary',
+    featured: true,
+  },
+  {
+    id: 3,
+    title: 'Video Streaming Platform',
+    subtitle: 'YouTube-like Web Application',
+    description: 'Responsive video streaming platform with real-time search suggestions and 60% optimized API calls.',
+    image: '/projects/streaming.png',
+    technologies: ['React.js', 'Redux Toolkit', 'TailwindCSS', 'Node.js', 'YouTube APIs'],
+    features: [
+      'Real-time search suggestions',
+      '60% reduced API calls',
+      'Search caching & debouncing',
+      'Static live chat',
+      'Video download feature',
+      'Dark/Light theme toggle',
+      'Voice search',
+      'Video recommendations',
+    ],
+    liveUrl: '#',
+    githubUrl: 'https://github.com/sameerkhan9412',
+    videoUrl: '#',
+    color: 'from-accent-cyan via-accent-blue to-primary',
+    featured: true,
+  },
+]
+
+export const education = [
+  {
+    id: 1,
+    degree: 'Master of Computer Application (MCA)',
+    institution: 'Aligarh Muslim University',
+    location: 'Aligarh, Uttar Pradesh, India',
+    period: 'Aug 2024 - May 2026',
+    grade: 'CGPA: 8.0',
+    logo: '/education/amu.png',
+  },
+  {
+    id: 2,
+    degree: 'Bachelor of Computer Application (BCA)',
+    institution: 'Dharma Samaj College',
+    location: 'Aligarh, Uttar Pradesh, India',
+    period: 'June 2020 - Aug 2023',
+    grade: '75%',
+    logo: '/education/dsc.png',
+  },
+]
+
+export const leadership = [
+  {
+    id: 1,
+    title: 'Training & Placement Cell Coordinator',
+    organization: 'Dept. of Computer Science, AMU',
+    period: 'Aug 2025 - Present',
+    description: [
+      'Developed automation workflows using Google Apps Script API, Node.js, and Nodemailer to send automatic company invitations.',
+      'Coordinated with companies & the Training & Placement Officer to facilitate recruitment drives, internships and placements.',
+    ],
+    icon: Zap,
+  },
+  {
+    id: 2,
+    title: 'Web Development Lead',
+    organization: 'Computer Science Society (CSS) Club, AMU',
+    period: 'Sep 2025 - Present',
+    description: [
+      'Designed and led development of CSS Club and AMUHacks 4.0 websites.',
+      'Mentoring teams in full-stack development and best practices.',
+    ],
+    icon: Globe,
+  },
+]
+
+export const achievements = [
+  {
+    id: 1,
+    title: 'Bharatiya Antariksh Hackathon 2025 – ISRO',
+    description: 'Developed an automated satellite image change-detection system with offline support and user-friendly visual analytics for non-technical users.',
+    link: '#',
+    icon: Cpu,
+  },
+  {
+    id: 2,
+    title: '300+ DSA Problems Solved',
+    description: 'Solved 300+ Data Structure & Algorithm problems across platforms including LeetCode, GeeksforGeeks, and HackerRank.',
+    icon: Brain,
+  },
+  {
+    id: 3,
+    title: 'Responsive Web Design Certification',
+    description: 'Successfully completed 300 hours of Responsive Website Design training through freeCodeCamp.',
+    link: '#',
+    icon: Code2,
+  },
+  {
+    id: 4,
+    title: 'Full Stack Web Development Training',
+    description: 'Successfully completed a 6-month Full Stack Web Development training conducted by CodeHelp.',
+    link: '#',
+    icon: Layers,
+  },
+]
+
+export const techStack = [
+  'React.js',
+  'Next.js',
+  'Node.js',
+  'TypeScript',
+  'MongoDB',
+  'Express.js',
+  'Redux',
+  'Tailwind CSS',
+  'Docker',
+  'AWS',
+  'Git',
+  'PostgreSQL',
+  'Redis',
+  'GraphQL',
+  'REST API',
+  'JWT',
+]
+
+export const socialLinks = [
+  {
+    name: 'GitHub',
+    url: 'https://github.com/sameerkhan9412',
+    icon: 'github',
+  },
+  {
+    name: 'LinkedIn',
+    url: 'https://linkedin.com/in/sameerkhn',
+    icon: 'linkedin',
+  },
+  {
+    name: 'Email',
+    url: 'mailto:sameerkhann9412@gmail.com',
+    icon: 'mail',
+  },
+]
