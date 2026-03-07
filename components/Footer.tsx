@@ -263,7 +263,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            © {currentYear} Sameer Khan. All rights reserved.
+            © {currentYear} Sameer. All rights reserved.
           </motion.p>
 
           {/* Made with love */}

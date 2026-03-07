@@ -81,8 +81,9 @@ export default function Projects() {
                     transition={{ duration: 0.3 }}
                   >
                     {/* Placeholder gradient background */}
-                    <div className={cn('absolute inset-0 bg-gradient-to-br opacity-50', project.color)} />
+                    {/* <div className={cn('absolute inset-0 bg-gradient-to-br opacity-50', project.color)} /> */}
                     
+                    <Image src={project.image} height={300} width={200} className='w-full h-auto object-fill' alt='project img'/>
                     {/* Project Preview Icon */}
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-20 h-20 rounded-full glass flex items-center justify-center">

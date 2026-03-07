@@ -14,16 +14,25 @@ import {
   Globe,
 } from 'lucide-react'
 
+import codewayImg from "@/app/assets/projects/codeway.png"
+import studybyteImg from "@/app/assets/projects/studybyte.png"
+import samtubeImg from "@/app/assets/projects/samtube.png"
+
+import amuLogo from "@/app/assets/logo/amu.png"
+import schoolLogo from "@/app/assets/logo/school.png"
+import cssLogo from "@/app/assets/logo/css.png"
+import dsLogo from "@/app/assets/logo/ds.png"
+
 export const personalInfo = {
-  name: 'Sameer Khan',
+  name: 'Sameer',
   title: 'Full Stack Developer',
-  email: 'sameerkhann9412@gmail.com',
+  email: 'sameerkhan.cse1@gmail.com',
   phone: '+919412803911',
-  location: 'Aligarh, Uttar Pradesh, India',
-  linkedin: 'https://linkedin.com/in/sameerkhn',
+  location: 'Noida, Uttar Pradesh, India',
+  linkedin: 'https://www.linkedin.com/in/sameerkhn/',
   github: 'https://github.com/sameerkhan9412',
   portfolio: 'https://portfoliobysameer.vercel.app',
-  resume: '/resume.pdf',
+  resume: 'https://drive.google.com/file/d/1_Ky8_5W-IkpzoDCGfBNu1sVPCalUOtab/view?usp=sharing',
 }
 
 export const experiences = [
@@ -33,7 +42,7 @@ export const experiences = [
     company: 'Technopedia Soft',
     location: 'Greater Noida',
     type: 'Onsite',
-    period: 'Jan 2026 - Present',
+    period: 'Jan 2026 - Feb 2026',
     description: [
       'Built a scalable healthcare platform with Next.js frontend and Node.js backend supporting appointment scheduling and e-pharmacy services.',
       'Architected secure backend modules including authentication, authorization, and protected APIs.',
@@ -82,63 +91,63 @@ export const skills = {
     title: 'Languages',
     icon: Code2,
     items: [
-      { name: 'JavaScript', level: 95 },
-      { name: 'TypeScript', level: 90 },
-      { name: 'C/C++', level: 80 },
-      { name: 'Java', level: 75 },
-      { name: 'HTML/CSS', level: 95 },
+      { name: 'JavaScript', level: 70 },
+      { name: 'TypeScript', level: 50 },
+      { name: 'C/C++', level: 40 },
+      { name: 'Java', level: 60 },
+      { name: 'HTML/CSS', level: 80 },
     ],
   },
   frontend: {
     title: 'Frontend',
     icon: Layers,
     items: [
-      { name: 'React.js', level: 95 },
-      { name: 'Next.js', level: 90 },
-      { name: 'Redux Toolkit', level: 85 },
-      { name: 'Tailwind CSS', level: 92 },
-      { name: 'Framer Motion', level: 80 },
+      { name: 'React.js', level: 85 },
+      { name: 'Next.js', level: 60 },
+      { name: 'Redux Toolkit', level: 80 },
+      { name: 'Tailwind CSS', level: 90 },
+      { name: 'Framer Motion', level: 90 },
     ],
   },
   backend: {
     title: 'Backend',
     icon: Server,
     items: [
-      { name: 'Node.js', level: 92 },
+      { name: 'Node.js', level: 70 },
       { name: 'Express.js', level: 90 },
-      { name: 'REST API', level: 95 },
-      { name: 'JWT Auth', level: 88 },
-      { name: 'Swagger', level: 82 },
+      { name: 'REST API', level: 80 },
+      { name: 'JWT Auth', level: 82 },
+      { name: 'Swagger', level: 80 },
     ],
   },
   database: {
     title: 'Database',
     icon: Database,
     items: [
-      { name: 'MongoDB', level: 90 },
-      { name: 'SQL', level: 85 },
-      { name: 'Redis', level: 78 },
-      { name: 'Mongoose', level: 88 },
+      { name: 'MongoDB', level: 80 },
+      { name: 'SQL', level: 75 },
+      { name: 'Redis', level: 70 },
+      { name: 'Mongoose', level: 80 },
     ],
   },
   devops: {
     title: 'DevOps & Cloud',
     icon: Cloud,
     items: [
-      { name: 'Docker', level: 82 },
-      { name: 'GitHub Actions', level: 85 },
-      { name: 'AWS EC2', level: 75 },
-      { name: 'CI/CD', level: 80 },
+      { name: 'Docker', level: 70 },
+      { name: 'GitHub Actions', level: 70 },
+      { name: 'AWS EC2', level: 65 },
+      { name: 'CI/CD', level: 70 },
     ],
   },
   tools: {
     title: 'Tools',
     icon: Terminal,
     items: [
-      { name: 'Git/GitHub', level: 95 },
-      { name: 'Postman', level: 90 },
-      { name: 'VS Code', level: 95 },
-      { name: 'Linux', level: 80 },
+      { name: 'Git/GitHub', level: 80 },
+      { name: 'Postman', level: 85 },
+      { name: 'VS Code', level: 90 },
+      { name: 'Linux', level: 45 },
     ],
   },
 }
@@ -149,7 +158,7 @@ export const projects = [
     title: 'The Codeway',
     subtitle: 'Interactive Coding & Practice Platform',
     description: 'Full-stack interactive coding platform with real-time code execution, AI-based interview simulation, DSA Visualizer, coding contests, and doubt forum.',
-    image: '/projects/codeway.png',
+    image: codewayImg,
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redis', 'Judge0 API', 'OpenAI API'],
     features: [
       'Real-time code execution with Judge0',
@@ -161,8 +170,8 @@ export const projects = [
       'Multi-language support',
       'Payment gateway integration',
     ],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/sameerkhan9412',
+    liveUrl: 'https://the-codeway.vercel.app/',
+    githubUrl: 'https://github.com/Sameerkhan9412/The-Codeway',
     color: 'from-primary via-accent-cyan to-accent-purple',
     featured: true,
   },
@@ -171,7 +180,7 @@ export const projects = [
     title: 'The StudyByte',
     subtitle: 'Full Stack Online EdTech Platform',
     description: 'Scalable ed-tech platform with role-based dashboards for instructors and students, used by 100+ mock users.',
-    image: '/projects/studybyte.png',
+    image: studybyteImg,
     technologies: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Razorpay'],
     features: [
       'Role-based dashboards',
@@ -183,9 +192,9 @@ export const projects = [
       'Automated email notifications',
       'Progress tracking',
     ],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/sameerkhan9412',
-    videoUrl: '#',
+    liveUrl: 'https://studybyte.vercel.app/',
+    githubUrl: 'https://github.com/Sameerkhan9412/StudyByte',
+    videoUrl: 'https://studybyte.vercel.app/',
     color: 'from-accent-purple via-accent-pink to-primary',
     featured: true,
   },
@@ -194,7 +203,7 @@ export const projects = [
     title: 'Video Streaming Platform',
     subtitle: 'YouTube-like Web Application',
     description: 'Responsive video streaming platform with real-time search suggestions and 60% optimized API calls.',
-    image: '/projects/streaming.png',
+    image: samtubeImg,
     technologies: ['React.js', 'Redux Toolkit', 'TailwindCSS', 'Node.js', 'YouTube APIs'],
     features: [
       'Real-time search suggestions',
@@ -206,8 +215,8 @@ export const projects = [
       'Voice search',
       'Video recommendations',
     ],
-    liveUrl: '#',
-    githubUrl: 'https://github.com/sameerkhan9412',
+    liveUrl: 'https://samtube-youtube-clone.vercel.app/',
+    githubUrl: 'https://github.com/Sameerkhan9412/Youtube-Clone-Using-React',
     videoUrl: '#',
     color: 'from-accent-cyan via-accent-blue to-primary',
     featured: true,
@@ -222,7 +231,8 @@ export const education = [
     location: 'Aligarh, Uttar Pradesh, India',
     period: 'Aug 2024 - May 2026',
     grade: 'CGPA: 8.0',
-    logo: '/education/amu.png',
+    logo: amuLogo,
+    website:"https://www.amu.ac.in/"
   },
   {
     id: 2,
@@ -231,7 +241,28 @@ export const education = [
     location: 'Aligarh, Uttar Pradesh, India',
     period: 'June 2020 - Aug 2023',
     grade: '75%',
-    logo: '/education/dsc.png',
+    logo: dsLogo,
+    website:"https://dscaligarh.ac.in/"
+  },
+  {
+    id: 3,
+    degree: 'Intermediate ',
+    institution: 'H.I Inter College',
+    location: 'Aligarh, Uttar Pradesh, India',
+    period: 'June 2019 - Aug 2020',
+    grade: '70%',
+    logo: schoolLogo,
+    website:"https://hiintercollege.com"
+  },
+  {
+    id: 4,
+    degree: 'High School ',
+    institution: 'H.I Inter College',
+    location: 'Aligarh, Uttar Pradesh, India',
+    period: 'June 2017 - Aug 2018',
+    grade: '80%',
+    logo: schoolLogo,
+    website:"https://hiintercollege.com"
   },
 ]
 
@@ -245,7 +276,7 @@ export const leadership = [
       'Developed automation workflows using Google Apps Script API, Node.js, and Nodemailer to send automatic company invitations.',
       'Coordinated with companies & the Training & Placement Officer to facilitate recruitment drives, internships and placements.',
     ],
-    icon: Zap,
+    icon: amuLogo,
   },
   {
     id: 2,
@@ -256,7 +287,7 @@ export const leadership = [
       'Designed and led development of CSS Club and AMUHacks 4.0 websites.',
       'Mentoring teams in full-stack development and best practices.',
     ],
-    icon: Globe,
+    icon: cssLogo,
   },
 ]
 
@@ -265,7 +296,7 @@ export const achievements = [
     id: 1,
     title: 'Bharatiya Antariksh Hackathon 2025 – ISRO',
     description: 'Developed an automated satellite image change-detection system with offline support and user-friendly visual analytics for non-technical users.',
-    link: '#',
+    link: 'https://certificate.hack2skill.com/user/isrobah25/2025H2S06BAH25-P30133',
     icon: Cpu,
   },
   {
@@ -278,14 +309,21 @@ export const achievements = [
     id: 3,
     title: 'Responsive Web Design Certification',
     description: 'Successfully completed 300 hours of Responsive Website Design training through freeCodeCamp.',
-    link: '#',
+    link: 'https://www.freecodecamp.org/certification/Sameer_khan9412/responsive-web-design',
     icon: Code2,
   },
   {
     id: 4,
     title: 'Full Stack Web Development Training',
     description: 'Successfully completed a 6-month Full Stack Web Development training conducted by CodeHelp.',
-    link: '#',
+    link: 'https://learn.codehelp.in/share-certificate?serialno=TVKFVADG',
+    icon: Layers,
+  },
+  {
+    id: 4,
+    title: 'DevOps Training',
+    description: 'Successfully completed a 6-month DevOps training conducted by 100xdevs.',
+    link: 'https://generateinvoice.teachx.in/generatecertificate/certificate/harkirat_db/62767/43175/14',
     icon: Layers,
   },
 ]
@@ -322,7 +360,7 @@ export const socialLinks = [
   },
   {
     name: 'Email',
-    url: 'mailto:sameerkhann9412@gmail.com',
+    url: 'mailto:sameerkhan.cse1@gmail.com',
     icon: 'mail',
   },
 ]

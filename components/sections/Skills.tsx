@@ -145,7 +145,7 @@ export default function Skills() {
             Also Familiar With
           </h3>
           <div className="flex flex-wrap justify-center gap-3">
-            {['OOPs', 'DBMS', 'Operating System', 'Computer Networks', 'Software Engineering', 'System Design'].map(
+            {['OOPs', 'DBMS', 'Operating System', 'Computer Networks', 'Software Engineering'].map(
               (subject, index) => (
                 <motion.span
                   key={subject}

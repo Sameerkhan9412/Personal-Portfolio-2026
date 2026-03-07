@@ -37,7 +37,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sameer.dev'),
+  metadataBase: new URL('https://sameerwork.vercel.app/'),
   title: {
     default: 'Sameer Khan | Full Stack Developer | React.js, Next.js, Node.js Expert',
     template: '%s | Sameer Khan',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     'Aligarh Muslim University',
     'India',
   ],
-  authors: [{ name: 'Sameer Khan', url: 'https://sameer.dev' }],
+  authors: [{ name: 'Sameer Khan', url: 'https://sameerwork.vercel.app/' }],
   creator: 'Sameer Khan',
   publisher: 'Sameer Khan',
   robots: {
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://sameer.dev',
+    url: 'https://sameerwork.vercel.app/',
     siteName: 'Sameer Khan Portfolio',
     title: 'Sameer Khan | Full Stack Developer',
     description: 'Full Stack Developer experienced in React.js, Next.js, Node.js, and MongoDB. Building production-level applications with modern tech stack.',
@@ -103,7 +103,7 @@ export const metadata: Metadata = {
     creator: '@sameerkhn',
   },
   alternates: {
-    canonical: 'https://sameer.dev',
+    canonical: 'https://sameerwork.vercel.app/',
   },
   category: 'technology',
   verification: {
@@ -121,8 +121,8 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Sameer Khan',
-    url: 'https://sameer.dev',
-    image: 'https://sameer.dev/profile.jpg',
+    url: 'https://sameerwork.vercel.app/',
+    image: 'https://sameerwork.vercel.app/profile.jpg',
     sameAs: [
       'https://github.com/sameerkhan9412',
       'https://linkedin.com/in/sameerkhn',

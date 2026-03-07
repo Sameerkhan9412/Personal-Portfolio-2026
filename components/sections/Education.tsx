@@ -5,6 +5,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { GraduationCap, MapPin, Calendar, Award } from 'lucide-react'
 import { education } from '@/lib/data'
+import Image from 'next/image'
 
 export default function Education() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -54,7 +55,8 @@ export default function Education() {
                 {/* Icon/Logo */}
                 <div className="flex-shrink-0">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent-cyan flex items-center justify-center">
-                    <GraduationCap className="w-8 h-8 text-white" />
+                    {/* <GraduationCap className="w-8 h-8 text-white" /> */}
+                    <Image src={edu.logo} width={100} height={100} className='w-full aspect-square' alt='college logo'/> 
                   </div>
                 </div>
 

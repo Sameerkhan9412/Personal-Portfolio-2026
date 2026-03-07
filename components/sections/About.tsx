@@ -5,6 +5,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Image from 'next/image'
 import { Code2, Rocket, Coffee, Target, Award, Users } from 'lucide-react'
+import profileImg from "@/app/assets/logo/profile.png"
 
 const highlights = [
   {
@@ -99,7 +100,7 @@ export default function About() {
               {/* Image */}
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-background-secondary">
                 <Image
-                  src="/profile.jpg"
+                  src={profileImg}
                   alt="Sameer Khan"
                   fill
                   className="object-cover"

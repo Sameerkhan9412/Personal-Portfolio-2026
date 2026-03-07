@@ -75,7 +75,7 @@ export default function Preloader() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              SAMEER KHAN
+              SAMEER PORTFOLIO
             </motion.h1>
 
             {/* Progress bar */}

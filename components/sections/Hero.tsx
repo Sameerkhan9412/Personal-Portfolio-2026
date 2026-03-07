@@ -25,7 +25,7 @@ export default function Hero() {
     <section
       id="home"
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16"
     >
       {/* Particle Background */}
       <ParticleBackground />
@@ -148,7 +148,13 @@ export default function Hero() {
             <span className="text-text-secondary">I'm a </span>
             <TypeAnimation
               sequence={[
+                'Software Engineer',
+                2000,
                 'Full Stack Developer',
+                2000,
+                'Frontend Developer',
+                2000,
+                'Backend Developer',
                 2000,
                 'React.js Expert',
                 2000,
