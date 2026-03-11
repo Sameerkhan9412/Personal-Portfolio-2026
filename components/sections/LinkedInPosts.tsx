@@ -20,7 +20,7 @@ import {
   BookOpen,
   Zap
 } from 'lucide-react'
-import { linkedinPosts } from '@/lib/data'
+import { linkedinPosts, personalInfo } from '@/lib/data'
 import { cn } from '@/lib/utils'
 
 const postTypeIcons = {
@@ -238,7 +238,7 @@ export default function LinkedInPosts() {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <a
-            href="https://www.linkedin.com/in/sameerkhan9412"
+            href={personalInfo.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-[#0077B5] to-[#00A0DC] text-white font-medium overflow-hidden relative"
