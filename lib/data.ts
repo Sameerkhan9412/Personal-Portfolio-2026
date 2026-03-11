@@ -364,3 +364,85 @@ export const socialLinks = [
     icon: 'mail',
   },
 ]
+
+// lib/data.ts (add this to your existing data file)
+
+import post1 from '@/app/assets/1.png'
+import post2 from '@/app/assets/2.png'
+import post3 from '@/app/assets/3.png'
+import post4 from '@/app/assets/4.png'
+import post6 from '@/app/assets/6.png'
+export const linkedinPosts = [
+  {
+    id: 1,
+    content: "🚀 𝗙𝗶𝗻𝗮𝗹𝗹𝘆, 𝘄𝗲 𝘄𝗿𝗮𝗽𝗽𝗲𝗱 𝘂𝗽 𝗔𝗠𝗨 𝗛𝗮𝗰𝗸 𝟱.𝟬!⁣ What an incredible journey it has been! From planning and coordinating to execution and wrap-up — AMU Hack 5.0 was truly a memorable experience.⁣",
+    fullContent: "🚀 Just completed my journey as a Full Stack Developer Intern at MedTech Solutions! Built a healthcare platform serving 10,000+ patients with React.js, Node.js, and MongoDB. Key learnings: scalability, security, and user-centric design. Grateful for this amazing opportunity! #FullStackDeveloper #MERN #Healthcare",
+    image: post1,
+    likes: 234,
+    comments: 45,
+    shares: 12,
+    date: "2026-02-20",
+    postUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7431592642590978048/",
+    type: "leadership",
+  },
+  {
+    id: 2,
+    content: "Honored and Grateful! I’m truly proud to have been part of the Tech Team for AMUHACKS 4.0, a global-level hackathon organized by Computer Science Society (CSS) Club, Aligarh Muslim University (AMU) ",
+    fullContent: "💡 5 React.js patterns that improved my code quality by 40%:\n\n1. Custom Hooks for reusable logic\n2. Compound Components for flexibility\n3. Render Props for sharing code\n4. HOCs for cross-cutting concerns\n5. Context API for state management\n\nWhat patterns do you use? #ReactJS #WebDevelopment",
+    image: post2,
+    likes: 567,
+    comments: 89,
+    shares: 34,
+    date: "2025-05-20",
+    postUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7325718870072135682/",
+    type: "milestone",
+  },
+  {
+    id: 3,
+    content: "I’m happy to share, I worked on this 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐂𝐥𝐨𝐧𝐞 𝐰𝐢𝐭𝐡 𝐑𝐞𝐚𝐜𝐭 ,𝐑𝐞𝐝𝐮𝐱 𝐓𝐨𝐨𝐥𝐤𝐢𝐭 ,𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒, 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐀𝐏𝐈 𝐚𝐧𝐝 𝐍𝐨𝐝𝐞.𝐣𝐬.",
+    fullContent: "🎯 Crossed 300+ DSA problems on LeetCode & GeeksforGeeks!\n\nHere's my approach:\n✅ Daily 2-hour practice\n✅ Topic-wise preparation\n✅ Revision of solved problems\n✅ Discussing solutions with peers\n\nConsistency > Intensity\n\n#DSA #Programming #LeetCode",
+    image: post3,
+    likes: 892,
+    comments: 156,
+    shares: 67,
+    date: "2025-04-7",
+    postUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7280427317175181312/",
+    type: "technical",
+  },
+  {
+    id: 4,
+    content: "𝐄𝐱𝐜𝐢𝐭𝐢𝐧𝐠 𝐀𝐧𝐧𝐨𝐮𝐧𝐜𝐞𝐦𝐞𝐧𝐭: 𝐒𝐭𝐮𝐝𝐲𝐁𝐲𝐭𝐞 𝐢𝐬 𝐋𝐢𝐯𝐞! 📚✨ ⁣I'm thrilled to introduce 𝐒𝐭𝐮𝐝𝐲𝐁𝐲𝐭𝐞, a cutting-edge EdTech platform built with the MERN stack that transforms the way 𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬 𝐥𝐞𝐚𝐫𝐧 𝐚𝐧𝐝 𝐞𝐝𝐮𝐜𝐚𝐭𝐨𝐫𝐬 𝐭𝐞𝐚𝐜𝐡. 🎓 ⁣✅ 𝐅𝐨𝐫 𝐒𝐭𝐮𝐝𝐞𝐧𝐭𝐬 – Enjoy an interactive, engaging, and accessible learning",
+    fullContent: "🌟 Thrilled to lead the Web Development Team at CSS Club, AMU!\n\nTogether, we're:\n🔹 Conducting weekly workshops\n🔹 Building real-world projects\n🔹 Mentoring juniors\n🔹 Organizing hackathons\n\nLet's connect if you want to collaborate! #Leadership #WebDevelopment #Community",
+    image: post4,
+    likes: 445,
+    comments: 78,
+    shares: 23,
+    date: "2025-01-25",
+    postUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7308099692054102018/",
+    type: "technical",
+  },
+  {
+    id: 5,
+    content: "I’m happy to share that I’m starting a new position as Placement Coordinator - HR at Aligarh Muslim University!",
+    fullContent: "📚 My journey from BCA to MCA at Aligarh Muslim University:\n\n3 years of:\n• Building 10+ projects\n• 3 internships\n• Leading teams\n• Solving 300+ DSA problems\n\nThe journey continues! #Education #Growth #AMU",
+    image: "",
+    likes: 678,
+    comments: 112,
+    shares: 45,
+    date: "2025-10-05",
+    postUrl: "https://www.linkedin.com/posts/sameerkhn_im-happy-to-share-that-im-starting-a-new-activity-7362654313539649537-_XzX",
+    type: "leadership",
+  },
+  {
+    id: 6,
+    content: "𝐄𝐱𝐜𝐢𝐭𝐢𝐧𝐠 𝐀𝐧𝐧𝐨𝐮𝐧𝐜𝐞𝐦𝐞𝐧𝐭!⁣ I am humbled and thrilled to share that I have been selected as the 𝐖𝐞𝐛 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐌𝐞𝐧𝐭𝐨𝐫 for the Computer Science Society (CSS) , Department of Computer Science, Aligarh Muslim University for the academic session 2025–26.⁣",
+    fullContent: "⚡ Optimized a React application from 4.2s to 1.1s load time!\n\nTechniques used:\n1. Code splitting with React.lazy()\n2. Image optimization\n3. Memoization with useMemo/useCallback\n4. Virtual scrolling\n5. CDN for static assets\n\n#Performance #React #WebDev",
+    image: post6,
+    likes: 723,
+    comments: 98,
+    shares: 56,
+    date: "2025-07-18",
+    postUrl: "https://www.linkedin.com/posts/sameerkhn_amu-computerscience-mentorship-activity-7368308670729760770-Spm5",
+    type: "milestone",
+  },
+]

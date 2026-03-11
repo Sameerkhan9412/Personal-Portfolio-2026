@@ -9,6 +9,7 @@ import Leadership from '@/components/sections/Leadership'
 import Achievements from '@/components/sections/Achievements'
 import Contact from '@/components/sections/Contact'
 import TechMarquee from '@/components/TechMarquee'
+import LinkedInPosts from '@/components/sections/LinkedInPosts'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Education />
       <Leadership />
       <Achievements />
+      <LinkedInPosts/>
       <Contact />
     </>
   )
